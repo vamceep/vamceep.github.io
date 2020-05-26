@@ -27,10 +27,6 @@
 	
 	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
 		<div class="container">
-			<!-- <a class="navbar-brand" href="index.html">Vamsi</a> -->
-			<button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="oi oi-menu"></span> Menu
-			</button>
 			
 			<div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav nav ml-auto">
@@ -44,23 +40,23 @@
 		</div>
 	</nav>
 
-	<section id="home-section" class="hero">
-		<div class="home-slider  owl-carousel">
-		<!-- <div class="owl-carousel"></div> -->
-			<div class="slider-item ">
-				<div class="overlay"></div>
-				<div class="container">
-					<div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end"> <!--data-scrollax-parent="true">-->
-						<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/bg_1.png);">
-							<div class="overlay"></div>
+	
+	<section class="ftco-home img ftco-section ftco-no-pb" id="home-section">
+		
+		<div class="container">
+			<div class="row">
+				<div class="sc1 col-md-4 col-lg-4 col-sm-12">
+					<div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+						<div class="text">
+							<span class="subheading" style="color:#28a745">Hello!</span>
+							<h2 class="mb-4 mt-3">I'm <span class="name">Vamsi Krishna.</span>
+							<h2 class="mb-4">Once a fullstack developer, now a student.</h2>
 						</div>
-						<div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-							<div class="text">
-								<span class="subheading">Hello!</span>
-								<h1 class="mb-4 mt-3">I'm <span>Vamsi Krishna</span></h1>
-								<h2 class="mb-4">Once a fullstack developer, now a student.</h2>
-							</div>
-						</div>
+					</div>
+				</div>
+				<div class="col-md-8 col-lg-8 col-sm-12">
+					<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/bg_1.png);">
+						<div class="overlay"></div>
 					</div>
 				</div>
 			</div>
@@ -81,12 +77,12 @@
 					<div class="row justify-content-start pb-3">
 						<div class="col-md-12 heading-section ftco-animate">
 							<h2 class="mb-4">About Me</h2>
-							<p>I am currently persuing M.Tech (Specialization in Computer science) in International Institute of Information Technology, Bangalore.</p>
+							<p>I am currently pursuing M.Tech (Specialization in Computer science) in International Institute of Information Technology, Bangalore.</p>
 							<ul class="about-info mt-4 px-md-0 px-2">
 								<li class="d-flex"><span>Name:</span> <span>Vamsi  Krishna Ponnada</span></li>
 								<li class="d-flex"><span>Master's:</span> <span>IIIT Bangalore, India (2019 - 2021)</span></li>
 								<li class="d-flex"><span>Bachelor's:</span> <span>CVR college affiliated to JNTU Hyderabad, India (2012 - 2016)</span></li>
-								<li class="d-flex"><span>Workex:</span> <span>2 years @ TCS</span></li>
+								<li class="d-flex"><span>Experience:</span> <span>2 years @ TCS as full stack web developer</span></li>
 								<li class="d-flex"><span>Email:</span> <span>vamcee.p@gmail.com</span></li>
 								<li class="d-flex"><span>College Email:</span> <span>vamsikrishna.ponnadap@iiitb.com</span></li>
 								<li class="d-flex"><span>Location:</span> <span>Hyderabad, India</span></li>
@@ -105,10 +101,41 @@
 				<div class="col-md-10 heading-section text-center ftco-animate">
 					<h2 class="mb-4">Projects</h2>
 					<p> I worked in TCS for 2 years(from 2016 August to 2018 July) for 2 clients TCS Ion, Novartis. In 2019 I prepared for GATE Exam and I secured 
-						<span style="color:#28a745">All India Rank 673</span> in Computer Science Paper(2019). As a result currently I am persuing M.Tech degree in International Institute of Information Technology, Bangalore</p>
+						<span style="color:#28a745">All India Rank 673</span> in Computer Science Paper(2019). As a result, currently, I am pursuing M.Tech degree in International Institute of Information Technology, Bangalore</p>
 				</div>
 			</div>
 			<div class="row">
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2019-2021</span>
+						<h2>DevOps Tools</h2>
+						<span class="position">IIIT Bangalore</span>
+						<p class="mt-4">I along with my team of 3 other people, designed a Book Comparison web application to demonstrate Continuous Integration and Continuous Development and deployment with Jenkins, Github, Docker,Rundeck, ELK Stack</p>
+					</div>
+				
+
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2019-2021</span>
+						<h2>Rest Api</h2>
+						<span class="position">IIIT Bangalore</span>
+						<p class="mt-4">Cerated a REST Api to implement employee update use case.Used Hibernate,Bootstrap, MySql</p>
+					</div>
+					
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2016-2017</span>
+						<h2>TCS Ion: Full stack web application developer</h2>
+						<span class="position">TCS</span>
+						<p class="mt-4">Worked in the development of the Configuration Management Database(CMDB) tool.</p>
+					</div>
+
+					<!-- <div class="resume-wrap ftco-animate">
+						<span class="date">2012-2016</span>
+						<h2>OpenStack Workshop</h2>
+						<span class="position">TCS Internship</span>
+						<p class="mt-4">Deployed openstack and attended workshops by TCS. We had hands on experience in setingup cloud platform.</p>
+					</div> -->
+				</div>
+
 				<div class="col-md-6">
 					<div class="resume-wrap ftco-animate">
 						<span class="date">2019-2021</span>
@@ -116,42 +143,26 @@
 						<span class="position">IIIT Bangalore</span>
 						<p class="mt-4">As part of reading elective, I read the IEEE paper titled ”IBM’s Deep Blue Chess grandmaster chips”. I also analyzed the Alpha Beta pruning algorithm as implemented by Stockfish</p>
 					</div>
-					<div class="resume-wrap ftco-animate">
-						<span class="date">2019-2021</span>
-						<h2>DevOps Tools</h2>
-						<span class="position">IIIT Bangalore</span>
-						<p class="mt-4">I along with my team of 3 other people, designed a Book Comparison web application to demonstrate Continious Integration and Continious Development with Jenkins, Github, Docker Rundeck, ELK Stack</p>
-					</div>
-					<div class="resume-wrap ftco-animate">
-						<span class="date">2019-2021</span>
-						<h2>Rest Api</h2>
-						<span class="position">IIIT Bangalore</span>
-						<p class="mt-4">Something ..... </p>
-					</div>
-				</div>
-				
-				<div class="col-md-6">
+
 					<div class="resume-wrap ftco-animate">
 						<span class="date">2018-2019</span>
 						<h2>GATE preparation</h2>
 						<span class="position">ACE Coaching Academy</span>
-						<p class="mt-4">Gaveup my job in TCS and prepared for GATE 2019. I Secured <span style="color:#28a745">AIR 673</span> in Computer Science paper.</p>
+						<p class="mt-4">Gave up my job in TCS and prepared for GATE 2019. I Secured <span style="color:#28a745">AIR 673</span> in Computer Science paper.</p>
 					</div>
+
 					<div class="resume-wrap ftco-animate">
 						<span class="date">2012-2016</span>
 						<h2>Information Retrieval</h2>
 						<span class="position">CVR college affiliated to JNTU University</span>
 						<p class="mt-4">Implemented TF and Tf.Idf algorithm and tested it on 40000 medical documents. Secured 2nd place in paper presentation on Information Retrieval in CVR college.</p>
 					</div>
-					<div class="resume-wrap ftco-animate">
-						<span class="date">2012-2016</span>
-						<h2>OpenStack setup</h2>
-						<span class="position">TCS Internship</span>
-						<p class="mt-4">Deployed openstack and attended workshops by TCS</p>
-					</div>
-					
 				</div>
 			</div>
+
+
+
+
 			<div class="row justify-content-center mt-5">
 				<div class="col-md-6 text-center ftco-animate">
 					<p><a href="#" class="btn btn-primary py-4 px-5">Download CV</a></p>
@@ -170,10 +181,13 @@
 			</div>
 			<div class="row">
 				<div class="col-md-3 col-xs-1">
-					<h3>Docker hub</h3>
+					<h3>Docker container</h3>
 				</div>
 				<div class="col-md-3 col-xs-1 animate-box">
 					<h3>Jenkins</h3>
+				</div>
+				<div class="col-md-3 col-xs-1">
+					<h3>Git</h3>
 				</div>
 				<div class="col-md-3 col-xs-1 animate-box">
 					<h3>REST api</h3>

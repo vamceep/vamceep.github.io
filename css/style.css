@@ -9702,6 +9702,10 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
 
+
+
+/* ---------------------------added by me--------------------------- */
+
   .footer.icon.docker {
     display: block;
     margin-left: auto;
@@ -9709,3 +9713,9 @@ textarea.form-control {
     padding-top:12px;
     width: 50%;
   }
+
+.name {
+  color:#28a745;
+  font-size: 30px;
+  font-weight: bold;
+}
