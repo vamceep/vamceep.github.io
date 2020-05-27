@@ -275,3 +275,9 @@
 
 })(jQuery);
 
+
+var switchTheam = function() {
+	// alert("af");
+	$();
+	// filter: invert(0.30);
+}
