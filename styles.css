@@ -8,13 +8,14 @@
 }
 html {
  font-family: 'light';
- font-size: 14px
+ font-size: 14px;
+ line-height: 17px;
 }
 .heading {
     text-align: center;
     font-size: 18px;
 }
-.name-and-roal {
+.name-and-role {
     font-family: bold;
 }
 .activity {
@@ -28,14 +29,12 @@ html {
     margin-bottom: 10px;
     background-color: black;
 }
-
 .activity-key {
-    min-width: 150px
+    min-width: 115px
 }
 .activity-value {
     width: 100%
 }
-
 .activity-heading {
     display: flex;
     justify-content: space-between;
