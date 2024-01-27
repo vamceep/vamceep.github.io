@@ -1,9 +1,26 @@
+@font-face {
+    font-family: bold;
+    src: url('Cormorant_Garamond/CormorantGaramond-Bold.ttf');
+}
+@font-face {
+    font-family: light;
+    src: url('Cormorant_Garamond/CormorantGaramond-Light.ttf');
+}
+html {
+ font-family: 'light';
+ font-size: 14px
+}
 .heading {
     text-align: center;
+    font-size: 18px;
+}
+.name-and-roal {
+    font-family: bold;
 }
 .activity {
     display: flex;
     justify-content: start;
+    margin-top: 10px;
 }
 .separator {
     height: 1px;
@@ -23,6 +40,9 @@
     display: flex;
     justify-content: space-between;
     width: 100%
+}
+.activity-heading-text{
+    font-family: bold;
 }
 .skill {
     margin-right: 25px;
