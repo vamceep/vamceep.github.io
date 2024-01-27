@@ -1,0 +1,22 @@
+.activity {
+    display: flex;
+}
+.separator {
+    height: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+}
+.activity-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.act-head-title {
+    width: max-content;
+}
+
+.location{
+
+    width:  min-content;
+}
