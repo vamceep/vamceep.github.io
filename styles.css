@@ -1,5 +1,9 @@
+.heading {
+    text-align: center;
+}
 .activity {
     display: flex;
+    justify-content: start;
 }
 .separator {
     height: 1px;
@@ -7,16 +11,19 @@
     margin-bottom: 10px;
     background-color: black;
 }
+
+.activity-key {
+    min-width: 150px
+}
+.activity-value {
+    width: 100%
+}
+
 .activity-heading {
     display: flex;
     justify-content: space-between;
+    width: 100%
 }
-
-.act-head-title {
-    width: max-content;
-}
-
-.location{
-
-    width:  min-content;
+.skill {
+    margin-right: 25px;
 }
