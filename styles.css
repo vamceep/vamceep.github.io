@@ -21,15 +21,20 @@ html {
 .activity {
     display: flex;
     justify-content: start;
-    margin-top: 10px;
+    margin-top: 5px;
+}
+.activity_points {
+    padding-left: 10px;
+    padding-top: 5px;
 }
 .separator {
     height: 1px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     background-color: black;
 }
 .activity-key {
+    font-family: bold;
     min-width: 115px
 }
 .activity-value {
@@ -44,5 +49,5 @@ html {
     font-family: bold;
 }
 .skill {
-    margin-right: 25px;
+    margin-right: 2px;
 }
