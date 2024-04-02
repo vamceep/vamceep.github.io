@@ -8,7 +8,7 @@
 }
 html {
  font-family: 'light';
- font-size: 14px;
+ font-size: 15px;
  line-height: 17px;
 }
 .heading {
@@ -34,8 +34,7 @@ html {
     background-color: black;
 }
 .activity-key {
-    font-family: bold;
-    min-width: 115px
+    min-width: 125px
 }
 .activity-value {
     width: 100%
@@ -49,5 +48,5 @@ html {
     font-family: bold;
 }
 .skill {
-    margin-right: 2px;
+    margin-right: 5px;
 }
