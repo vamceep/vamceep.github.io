@@ -1,10 +1,12 @@
 @font-face {
     font-family: bold;
-    src: url('Cormorant_Garamond/CormorantGaramond-Bold.ttf');
+    /* src: url('Cormorant_Garamond/CormorantGaramond-Bold.ttf'); */
+    src: url('PPCirka-Free for personal use/PPCirka-Bold.otf');
 }
 @font-face {
     font-family: light;
-    src: url('Cormorant_Garamond/CormorantGaramond-Light.ttf');
+    /* src: url('Cormorant_Garamond/CormorantGaramond-Light.ttf'); */
+    src: url('PPCirka-Free for personal use/PPCirka-Light.otf');
 }
 html {
  font-family: 'light';
@@ -23,18 +25,8 @@ html {
     justify-content: start;
     margin-top: 5px;
 }
-.activity_points {
-    padding-left: 10px;
-    padding-top: 5px;
-}
-.separator {
-    height: 1px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    background-color: black;
-}
 .activity-key {
-    min-width: 125px
+    min-width: 130px
 }
 .activity-value {
     width: 100%
@@ -47,6 +39,18 @@ html {
 .activity-heading-text{
     font-family: bold;
 }
+.separator {
+    height: 1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: black;
+}
 .skill {
     margin-right: 5px;
 }
+
+/* @media print {
+    .pagebreak {
+        page-break-before: always; 
+    } /\* page-break-after works, as well *\/
+} */
